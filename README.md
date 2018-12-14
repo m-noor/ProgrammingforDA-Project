@@ -16,7 +16,7 @@ This repository is concerned with the use of Python `numpy.random` and `scipy.st
 1. [ProgrammingforDA-project-instructions.pdf](ProgrammingforDA-project-instructions.pdf) - instructions for the project, for future reference only.
 
 
-* *Note that GitHub places a limit of 25 MB for file upload via web browser and 100 MB for GitHub Desktop and git. As the size of this notebook is quite large (especially some of the commits), the Jupyter Notebook is actually stored on [Git Large File Storage (LFS)](https://git-lfs.github.com/).*
+* *Note that GitHub places a limit of 25 MB for file upload via web browser and 100 MB for GitHub Desktop and git. As the size of this notebook is quite large (especially some of the commits), the Jupyter Notebook is actually stored on [Git Large File Storage (LFS)](https://git-lfs.github.com/). Please read [this page](https://help.github.com/articles/collaboration-with-git-large-file-storage/) before cloning and pushing to this repository.*
 
 ### Pre-requisites for running the notebook
 This notebook relies on the following libraries, so please ensure you have these installed on your machine before running.
