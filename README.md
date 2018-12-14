@@ -9,7 +9,7 @@ This repository is concerned with the use of Python `numpy.random` and `scipy.st
 1. [CASP_synthetic_inverse_transform_sampling.csv](CASP_synthetic_inverse_transform_sampling.csv) - output file of synthetic values generated using the inverse transform sampling method
 1. [CASP_synthetic_standard_distributions.csv](CASP_synthetic_standard_distributions.csv) - output file of synthetic values using standard (well-known) probability distributions
 1. [ProgrammingforDA-Project.html](ProgrammingforDA-Project.html) - HTML version of the Jupyter notebook. Note this is for reference only as the notebook is not accurately reproducible through conversion to HTML.
-1. [ProgrammingforDA-Project.ipynb](ProgrammingforDA-Project.ipynb) - a Jupyter notebook written in Python 3.6*
+1. **[ProgrammingforDA-Project.ipynb](ProgrammingforDA-Project.ipynb) - a Jupyter notebook written in Python 3.6** *
 1. [ProgrammingforDA-Project.pdf](ProgrammingforDA-Project.pdf) - PDF version of the Jupyter notebook. Note this is for reference only as the notebook is not accurately reproducible through conversion to PDF.
 1. [distribution_chart.gif](distribution_chart.gif) - an image for illustration purpose referenced within the Jupyter notebook
 1. [overfit_underfit.png](overfit_underfit.png) - an image for illustration purpose referenced within the Jupyter notebook
