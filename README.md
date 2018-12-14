@@ -24,8 +24,18 @@ This notebook relies on the following libraries, so please ensure you have these
 1. `numpy`
 1. `plotly`
 1. `scipy`
-1. `orca` to generate static Plotly plots - see reference
+1. `matplotlib`
+1. `seaborn`
+1. `pandas`
+1. `orca` to generate static Plotly plots - see this [reference page](https://plot.ly/python/static-image-export/)
 1. `fitter`- the original fitter is available [here](https://pypi.org/project/fitter/). However, as the last commit was about 2 years ago, and with the updates to `matplotlib` since then, a [forked `fitter` will be used](https://github.com/caiostringari/fitter/tree/master). To install, use the command prompt/shell and execute the following: `pip install --upgrade https://github.com/caiostringari/fitter/tarball/master`. The `--upgrade` option can be omitted if there is no pre-existing `fitter` library.
 
 ### Troubleshooting / known issues
-By default, Plotly plots are fully interactive and editable with the free tool, Chart Studio. However, as each plot actually contains the data points within itself, rather than referencing variables, the notebook size can be quite large especially for a large dataset such as the CASP. Due to this, interactivity in plots is sacrified for notebook size by converting all the plots into images inline. In other words, these images are not saved locally but are generated within the Python memory space and displayed after conversion as images within the Jupyter notebook cells.
+By default, Plotly plots are fully interactive and editable with the free tool, Chart Studio. However, as each plot actually contains the data points within itself, rather than referencing variables, the notebook size can be quite large especially for a large dataset such as the CASP. Due to this, interactivity in plots is sacrified for notebook size by converting all the plots into images inline. In other words, these images are not saved locally but are generated within the Python memory space and displayed after conversion as images within the Jupyter notebook cells. If interactive plots are needed:
+
+1. uncomment the `iplot(fig)` line in each Python code cells in the notebook
+1. comment out the lines:
+```
+img_bytes = pio.to_image(fig, format='png')
+Image(img_bytes)
+```
