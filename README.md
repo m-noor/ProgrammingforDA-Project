@@ -2,15 +2,21 @@
 ## Project for the GMIT HDip in Data Analysis Course
 
 ### Brief introduction
-This repository is concerned with the use of Python `numpy.random` and `scipy.stats` packages as well as a statistical technique (inverse transform sampling) to generate a synthetic dataset. For this purpose, the CASP dataset is used. This repository contains the following files:
+This repository is concerned with the use of Python `numpy.random` and `scipy.stats` packages as well as a statistical technique (inverse transform sampling) to generate a synthetic dataset. For this purpose, the [CASP dataset](http://archive.ics.uci.edu/ml/datasets/Physicochemical+Properties+of+Protein+Tertiary+Structure) is used. This repository contains the following files:
 
 1. [README.md](README.md) (this file)
-1. [ProgrammingforDA-Assignment.ipynb](ProgrammingforDA-Assignment.ipynb) - a Jupyter Notebook written in Python
-1. [ProgrammingforDA-Assignment.pdf](ProgrammingforDA-Assignment.pdf) - PDF version of the Notebook. Note this is for reference only as the notebook is not accurately reproducible through conversion to PDF.
-1. [ProgrammingforDA-Assignment.html](ProgrammingforDA-Assignment.html) - HTML version of the Notebook. Note this is for reference only as the notebook is not accurately reproducible through conversion to HTML, although some interactivity is still retained as Plotly uses JavaScript natively.
-1. [Programmingfor-DA-assignment-instructions.pdf](Programmingfor-DA-assignment-instructions.pdf) - instructions for the assignment, for future reference only
+1. [CASP.csv](CASP.csv) - input dataset
+1. [CASP_synthetic_inverse_transform_sampling.csv](CASP_synthetic_inverse_transform_sampling.csv) - output file of synthetic values generated using the inverse transform sampling method
+1. [CASP_synthetic_standard_distributions.csv](CASP_synthetic_standard_distributions.csv) - output file of synthetic values using standard (well-known) probability distributions
+1. [ProgrammingforDA-Project.html](ProgrammingforDA-Project.html) - HTML version of the Jupyter notebook. Note this is for reference only as the notebook is not accurately reproducible through conversion to HTML.
+1. [ProgrammingforDA-Project.ipynb](ProgrammingforDA-Project.ipynb) - a Jupyter notebook written in Python 3.6*
+1. [ProgrammingforDA-Project.pdf](ProgrammingforDA-Project.pdf) - PDF version of the Jupyter notebook. Note this is for reference only as the notebook is not accurately reproducible through conversion to PDF.
+1. [distribution_chart.gif](distribution_chart.gif) - an image for illustration purpose referenced within the Jupyter notebook
+1. [overfit_underfit.png](overfit_underfit.png) - an image for illustration purpose referenced within the Jupyter notebook
+1. [ProgrammingforDA-project-instructions.pdf](ProgrammingforDA-project-instructions.pdf) - instructions for the project, for future reference only.
 
-* Note that GitHub places a limit of 25 MB for file upload via web browser and 100 MB for GitHub Desktop and git. As the size of this notebook is quite large (especially some of the commits), the Jupyter Notebook is stored on Git Large File Storage (LFS).*
+
+* *Note that GitHub places a limit of 25 MB for file upload via web browser and 100 MB for GitHub Desktop and git. As the size of this notebook is quite large (especially some of the commits), the Jupyter Notebook is actually stored on [Git Large File Storage (LFS)](https://git-lfs.github.com/).*
 
 ### Pre-requisites for running the notebook
 This notebook relies on the following libraries, so please ensure you have these installed on your machine before running.
